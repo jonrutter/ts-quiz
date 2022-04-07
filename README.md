@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# React TypeScript Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Netlify Status](https://api.netlify.com/api/v1/badges/6a656174-7eb1-4a23-8622-8a55da564854/deploy-status)
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://rfdb.netlify.app/)
+[![Current Version](https://img.shields.io/badge/version-2.1.0-green.svg)](https://github.com/jonrutter/react-film-db)
+[![GitHub Stars](https://img.shields.io/github/stars/jonrutter/react-film-db.svg)](https://github.com/jonrutter/react-film-db/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/jonrutter/react-film-db.svg)](https://github.com/jonrutter/react-film-db/issues)
 
-## Available Scripts
+A simple quiz game, built with React, TypeScript, and TailwindCSS .
 
-In the project directory, you can run:
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#description">Description</a></li>
+    <li><a href="#live-demo">Live Demo</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#author">Author</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgements">Acknowledgments</a></li>
+  </ol>
+</details>
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This app sources a random selection of 10 questions from the Open Trivia Database API.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Preview of the React Film Database project](./github/preview-main.png)
 
-### `npm test`
+<br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Live Demo
 
-### `npm run build`
+Preview the live demo: [https://jonrutter-quiz.netlify.app/](https://rfdb.netlify.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built with
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
 
-### `npm run eject`
+**Jon Rutter**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [GitHub Profile](https://www.github.com/rutterjt)
+- [Email](mailto:contact@jonrutter.com)
+- [Website](https://www.jonrutter.com)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Acknowledgements
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- This project uses the [Open Trivia Database API](https://opentdb.com/) as a source for the quiz questions.
+- Credit to [Thomas Weibenfalk](https://www.youtube.com/watch?v=F2JCjVSZlG0) for creating the original design and idea for this project.
