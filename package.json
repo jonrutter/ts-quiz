@@ -1,6 +1,6 @@
 {
   "name": "react-ts-quiz",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@fontsource/catamaran": "^4.5.6",
