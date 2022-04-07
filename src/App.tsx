@@ -5,9 +5,13 @@ import { fetchQuizQuestions } from './api';
 
 // components
 import { QuestionCard } from './components/QuestionCard';
+import { Button } from './components/Button';
 
 // types
 import { Difficulty, QuestionState } from './api';
+
+// image
+import BackgroundImage from './images/background.jpg';
 
 export type AnswerObject = {
   question: string;
@@ -74,34 +78,53 @@ const App: React.FC = () => {
   };
 
   return (
-    <div>
-      <h1>React Quiz</h1>
-      {(gameOver || userAnswers.length === TOTAL_QUESTIONS) && (
-        <button id="start" onClick={startGame}>
-          Start
-        </button>
+    <main
+      style={{
+        backgroundImage: `url(${BackgroundImage})`,
+        backgroundSize: 'cover',
+      }}
+      className={`w-full min-h-screen h-full overflow-x-hidden px-6 py-8`}
+    >
+      <header className="text-center">
+        <h1 className="font-heading text-7xl bg-gradient-to-b from-white to-[#85f1ff] bg-clip-text text-transparent [--wekipt-text-fill-color:_transparent] drop-shadow-md text-center uppercase mb-16">
+          React Quiz
+        </h1>
+        {(gameOver || userAnswers.length === TOTAL_QUESTIONS) && (
+          <Button onClick={startGame}>Start</Button>
+        )}
+      </header>
+      {!gameOver && (
+        <p id="score" className="text-white text-[2rem] text-center mb-4">
+          Score: {score}
+        </p>
       )}
-      {!gameOver && <p id="score">Score: {score}</p>}
-      {loading && <p id="loading">Loading Questions...</p>}
-      {!loading && !gameOver && (
-        <QuestionCard
-          questionNumber={number + 1}
-          totalQuestions={TOTAL_QUESTIONS}
-          question={questions[number].question}
-          answers={questions[number].answers}
-          userAnswer={userAnswers ? userAnswers[number] : undefined}
-          callback={checkAnswer}
-        />
-      )}
-      {!gameOver &&
-      !loading &&
-      userAnswers.length === number + 1 &&
-      number !== TOTAL_QUESTIONS - 1 ? (
-        <button id="next" onClick={nextQuestion}>
-          Next
-        </button>
-      ) : null}
-    </div>
+      <div className="max-w-screen-md mx-auto">
+        {loading && (
+          <div
+            id="loading"
+            className="w-full h-full flex items-center justify-center"
+          >
+            <div className="rounded-full w-16 h-16 border-4 border-t-transparent border-white animate-spin" />
+          </div>
+        )}
+        {!loading && !gameOver && (
+          <QuestionCard
+            questionNumber={number + 1}
+            totalQuestions={TOTAL_QUESTIONS}
+            question={questions[number].question}
+            answers={questions[number].answers}
+            userAnswer={userAnswers ? userAnswers[number] : undefined}
+            callback={checkAnswer}
+          />
+        )}
+        {!gameOver &&
+        !loading &&
+        userAnswers.length === number + 1 &&
+        number !== TOTAL_QUESTIONS - 1 ? (
+          <Button onClick={nextQuestion}>Next</Button>
+        ) : null}
+      </div>
+    </main>
   );
 };
 
