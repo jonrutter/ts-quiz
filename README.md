@@ -2,7 +2,7 @@
 
 ![Netlify Status](https://api.netlify.com/api/v1/badges/6a656174-7eb1-4a23-8622-8a55da564854/deploy-status)
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://jonrutter-quiz.netlify.app/)
-[![Current Version](https://img.shields.io/badge/version-1.0.1-green.svg)](https://github.com/rutterjt/react-ts-quiz)
+[![Current Version](https://img.shields.io/badge/version-1.0.2-green.svg)](https://github.com/rutterjt/react-ts-quiz)
 [![GitHub Stars](https://img.shields.io/github/stars/rutterjt/react-ts-quiz.svg)](https://github.com/rutterjt/react-ts-quiz/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/rutterjt/react-ts-quiz.svg)](https://github.com/rutterjt/react-ts-quiz/issues)
 

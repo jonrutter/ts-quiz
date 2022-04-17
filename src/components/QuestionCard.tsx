@@ -33,7 +33,7 @@ export const QuestionCard: React.FC<Props> = ({
           value={answer}
           className={`${
             userAnswer ? 'cursor-default' : 'cursor-pointer hover:opacity-80'
-          } select-none text-base w-full h-[40px] my-[5px] border-2 border-white shadow-md bg-gradient-to-r rounded-xl transition-all ${
+          } select-none text-base w-full h-[40px] my-[5px] border-2 border-white shadow-md bg-gradient-to-r rounded-xl transition-all focus:ring-2 focus:ring-[#d38551] outline-none ${
             userAnswer?.correctAnswer === answer
               ? 'from-[#56ffa4] to-[#59bc86]'
               : userAnswer?.answer === answer
