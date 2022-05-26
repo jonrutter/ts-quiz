@@ -50,8 +50,8 @@ Preview the live demo: [https://jonrutter-quiz.netlify.app/](https://jonrutter-q
 **Jon Rutter**
 
 - [GitHub Profile](https://www.github.com/rutterjt)
-- [Email](mailto:contact@jonrutter.com)
-- [Website](https://www.jonrutter.com)
+- [Email](mailto:contact@jonrutter.io)
+- [Website](https://www.jonrutter.io)
 
 ## License
 
