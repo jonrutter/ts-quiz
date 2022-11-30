@@ -2,9 +2,9 @@
 
 ![Netlify Status](https://api.netlify.com/api/v1/badges/b9b2720b-b852-4f21-ba5f-5e36a4cae1a1/deploy-status)
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://jonrutter-quiz.netlify.app/)
-[![Current Version](https://img.shields.io/badge/version-1.0.3-green.svg)](https://github.com/rutterjt/react-ts-quiz)
-[![GitHub Stars](https://img.shields.io/github/stars/jonrutter/react-ts-quiz.svg)](https://github.com/jonrutter/react-ts-quiz/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/jonrutter/react-ts-quiz.svg)](https://github.com/jonrutter/react-ts-quiz/issues)
+[![Current Version](https://img.shields.io/badge/version-1.0.3-green.svg)](https://github.com/jonrutter/ts-quiz)
+[![GitHub Stars](https://img.shields.io/github/stars/jonrutter/ts-quiz.svg)](https://github.com/jonrutter/ts-quiz/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/jonrutter/ts-quiz.svg)](https://github.com/jonrutter/ts-quiz/issues)
 
 A simple quiz game, built with TypeScript, React, and Tailwind CSS.
 
