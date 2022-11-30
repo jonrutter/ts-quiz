@@ -1,12 +1,12 @@
 # React Quiz
 
-![Netlify Status](https://api.netlify.com/api/v1/badges/6a656174-7eb1-4a23-8622-8a55da564854/deploy-status)
+![Netlify Status](https://api.netlify.com/api/v1/badges/b9b2720b-b852-4f21-ba5f-5e36a4cae1a1/deploy-status)
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://jonrutter-quiz.netlify.app/)
 [![Current Version](https://img.shields.io/badge/version-1.0.3-green.svg)](https://github.com/rutterjt/react-ts-quiz)
-[![GitHub Stars](https://img.shields.io/github/stars/rutterjt/react-ts-quiz.svg)](https://github.com/rutterjt/react-ts-quiz/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/rutterjt/react-ts-quiz.svg)](https://github.com/rutterjt/react-ts-quiz/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/jonrutter/react-ts-quiz.svg)](https://github.com/jonrutter/react-ts-quiz/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/jonrutter/react-ts-quiz.svg)](https://github.com/jonrutter/react-ts-quiz/issues)
 
-A simple quiz game, built with TypeScript, React, and TailwindCSS.
+A simple quiz game, built with TypeScript, React, and Tailwind CSS.
 
 <details>
   <summary>Table of Contents</summary>
@@ -23,7 +23,7 @@ A simple quiz game, built with TypeScript, React, and TailwindCSS.
 
 ## Description
 
-This quiz game promps you with 10 randomly selected questions. After you pick an answer, the game gives immediate feedback whether you were right or wrong, keeping track of your score throughout the game. At the end, you can start a new quiz with 10 new questions.
+This quiz game promps the user with 10 randomly selected general trivia questions. After the user picks an answer, the game gives immediate feedback whether you were right or wrong, keeping track of your score throughout the game. At the end, you can start a new quiz with a new set of questions.
 
 ![Preview of the React Quiz App project](./github/preview-main.png)
 
@@ -49,7 +49,7 @@ Preview the live demo: [https://jonrutter-quiz.netlify.app/](https://jonrutter-q
 
 **Jon Rutter**
 
-- [GitHub Profile](https://www.github.com/rutterjt)
+- [GitHub Profile](https://www.github.com/jonrutter)
 - [Email](mailto:contact@jonrutter.io)
 - [Website](https://www.jonrutter.io)
 
